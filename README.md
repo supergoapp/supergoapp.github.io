@@ -18,8 +18,9 @@ docs/
 ├─ .vitepress/
 │  ├─ config.mts       网站配置：标题、顶部导航、左侧目录、搜索、页脚
 │  └─ theme/           默认主题 + 图片点击放大 + 主色
+│     └─ components/   首页用的组件：HeroLauncher（标题区的启动器示意图）、HomeSections（输入示例、场景、下载）
 ├─ public/logo.svg     标志（临时的，正式图标做好后替换）
-├─ index.md            首页：标语、功能卡片（改首页文字只改这里）
+├─ index.md            首页：标语、功能卡片
 ├─ download.md         下载页
 ├─ start/              安装与开始使用
 └─ guide/              各功能的使用教程、搜索语法、插件、常见问题
