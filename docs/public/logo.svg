@@ -1,0 +1,5 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
+  <!-- 临时标志：蓝色圆角方块里一个白色的“直达”箭头；正式图标做好后替换 -->
+  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0067c0"/>
+  <path d="M18 32h24M32 20l12 12-12 12" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+</svg>
