@@ -8,7 +8,7 @@ markdownStyles: false
 hero:
   name: 超级直达
   text: 常用操作，一键直达
-  tagline: 双击 Ctrl，应用、文件、文件夹一步直达。免费的 Windows 快速启动器。
+  tagline: <span class="hero-key">双击 Ctrl</span>，应用、文件、文件夹一步直达。免费的 Windows 快速启动器。
   actions:
     - theme: brand
       text: 下载

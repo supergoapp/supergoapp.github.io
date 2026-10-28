@@ -1,5 +1,11 @@
 <svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 64 64">
-  <!-- 临时标志：蓝色圆角方块里一个白色的“直达”箭头；正式图标做好后替换 -->
-  <rect x="2" y="2" width="60" height="60" rx="14" fill="#0067c0"/>
-  <path d="M18 32h24M32 20l12 12-12 12" fill="none" stroke="#fff" stroke-width="6" stroke-linecap="round" stroke-linejoin="round"/>
+  <!-- 超级直达的图标：蓝色渐变圆角底板 + 白色“直达”箭头；和程序图标同一个图形（源码仓库 tools/make_icon.py 的方案 A） -->
+  <defs>
+    <linearGradient id="g" x1="0" y1="0" x2="0" y2="1">
+      <stop offset="0" stop-color="#2B9AF3"/>
+      <stop offset="1" stop-color="#0063B1"/>
+    </linearGradient>
+  </defs>
+  <rect x="3.8" y="3.8" width="56.4" height="56.4" rx="14" fill="url(#g)"/>
+  <path d="M18 32h26M33 20l12 12-12 12" fill="none" stroke="#fff" stroke-width="6.5" stroke-linecap="round" stroke-linejoin="round"/>
 </svg>
